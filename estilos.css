@@ -1,0 +1,257 @@
+/*navbar*/
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212529;
+    position: fixed;
+    z-index: 1000;
+    height: 100px;
+    max-width: inherit;
+    padding: 0 5%;
+}
+
+.container-fluid {
+    padding-left: 10%;
+}
+
+#imagen-logo {
+    width: 125px;
+    height: 90px;
+}
+
+.texto-logo {
+    font-size: 1.5em;
+    align-content: center;
+}
+
+.enlaces {
+    width: 100%;
+}
+
+.navbar {
+    height: 100px;
+    align-content: center;
+    padding-left: 15%;
+}
+
+.logo .enlaces {
+    background-color: transparent;
+}
+
+.nav-link {
+    font-size: 1.5em;
+}
+
+.nav-link.disabled {
+    color: #2aa845;
+}
+
+/*carrusel*/
+.texto-carrusel {
+    color: white;
+    position: absolute;
+    display: flow-root;
+    text-align: right;
+    top: 60%;
+    height: 20%;
+    width: 50%;
+    left: 45%;
+    font-size: 1em;
+}
+
+#btn-orador {
+    background-color: transparent;
+    color: white;
+}
+
+#btn-tickets {
+    background-color: #29a744;
+    border: #29a744;
+}
+
+/*oradores*/
+.texto-oradores {
+    text-align: center;
+    margin: 30px;
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.col {
+    margin: 10px 0;
+}
+
+#btn-javascript {
+    background-color: #fec107;
+    border: #fec107;
+}
+
+#btn-react {
+    background-color: #17a2b9;
+    border: #17a2b9;
+}
+
+#btn-negocios {
+    background-color: #6c757c;
+    border: #6c757c;
+    color: white;
+}
+
+#btn-startups {
+    background-color: #dc3546;
+    border: #dc3546;
+}
+
+.container-postal-texto {
+    display: flex
+}
+
+.imagen-honolulu {
+    width: 100%;
+    border: solid;
+    border-color: white;
+
+}
+
+.container-texto {
+    background-color: #353a40;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5em;
+    border-color: white;
+    border: solid;
+}
+
+#btn-conoce-mas {
+    background-color: transparent;
+    color: white;
+}
+
+.texto-formulario {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+span {
+    border-bottom: 2px dotted black;
+}
+
+.row-formulario {
+    width: 80%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.form-label {
+    margin: auto;
+}
+
+#btn-enviar {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #96c93e;
+    border: #96c93e;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #1c3947;
+    height: 100px;
+    color: white;
+    display: flex;
+}
+.lista-footer{
+    display: flex;
+    align-content:center;
+    padding: 0px 5%;
+}
+.enlaces-footer{
+    padding: 0px 15%;
+}
+.lista-footer li{
+    margin: 10px 25px;
+    font-size: 1.5em;
+}
+
+
+@media screen and (max-width:480px) {
+    .container{
+        position: inherit;
+    }
+    
+    .logo {
+        background-color: #212529;
+    }
+    .navbar{
+        color: white;
+        font-size: 0.5em;
+    }
+
+    #posicion-logo {
+        padding-left: 0%;
+    }
+
+    #container-nav {
+        display: flex;
+    }
+
+    #navbar-nav {
+        padding-left: 0%;
+    }
+
+    .container-carrusel {
+        background-color: #7e8284;
+    }
+
+    .titulo-carrusel {
+        background-color: #7e8284;
+    }
+
+    .texto-carrusel {
+        display: contents;
+        margin: 10px;
+        color: black;
+        text-align: center;
+    }
+
+    .parrafo-carrusel {
+        background-color: #7e8284;
+        padding: 0px 30px;
+    }
+
+    .btn-carrusel {
+        background-color: #7e8284;
+        padding-bottom: 10px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .container-postal-texto {
+        display: block;
+        margin: 0px 50px;
+    }
+    .footer{
+        height: 50px;
+    }
+    .lista-footer{
+        padding: 0px;
+    }
+
+    .lista-footer li{
+        margin: 15px 10px;
+        font-size: 0.50em;
+    }
+    .enlaces-footer{
+        padding: 0px;
+    }
+    
+}
